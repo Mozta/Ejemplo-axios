@@ -1,7 +1,6 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import { ListPosts } from "./components/ListPosts";
 
 function App() {
   return (
@@ -9,6 +8,7 @@ function App() {
       <h1 className="text-3xl font-bold text-purple-500">
         Mi primer ejemplo con AXIOS
       </h1>
+      <ListPosts />
     </>
   );
 }
